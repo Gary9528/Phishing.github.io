@@ -23,6 +23,15 @@
       text-align: center;
     }
 
+    .logo {
+      margin-bottom: 10px;
+    }
+
+    .logo img {
+      max-width: 120px;
+      height: auto;
+    }
+
     h2 {
       margin-bottom: 10px;
     }
@@ -45,7 +54,7 @@
       width: 100%;
       padding: 10px;
       background: #111;
-      color: white;
+      color: #0A66C2;
       border: none;
       border-radius: 6px;
       font-weight: bold;
@@ -60,6 +69,11 @@
 
 <body>
   <div class="card">
+
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Company Logo">
+    </div>
+
     <h2>Account Verification</h2>
     <p>Suspicious login detected. Please confirm access.</p>
 
@@ -71,7 +85,7 @@
 
   <script>
     function phished() {
-      alert("You got phished!.");
+      alert("You got phished!");
     }
   </script>
 </body>
